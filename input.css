@@ -2,19 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
+
 #main_content {
   background-image: url(../img/hero-bg.png);
+  background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  /* background-size: 50% 50%; */
 }
 
 #ribon_one {
+  width: 100%;
+  height: 100%;
+  position: absolute;
   background-image: url(../img/hero-ribbon-1.png);
 }
 
 #section_seven {
-  background: linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%);
+  /* background: linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%); */
+  background-image: url(../img/newsletter-bg.png);
+}
+
+#newsletter_box {
+  background-image: url(../img/newsletter-box.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#why {
+  background-image: url(../img/why-ribbon.png), url(../img/why-model-1.png), url(../img/why-model-2.png);
+  background-repeat: no-repeat;
+  background-position: center, 100% -18% , right bottom;
+}
+
+#section_six {
+  background-image: url(../img/features-circle-1.png), url(../img/features-circle-2.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
 }
 
 .checker {
@@ -72,8 +94,3 @@
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translateX(-6px);
 }
-
-/* .fixed_button {
-  position: fixed;
-  transition: all .255s;
-} */
