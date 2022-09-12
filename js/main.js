@@ -27,38 +27,18 @@ ScrollReveal().reveal("#statistics", {
 });
 
 ScrollReveal().reveal("#section_six_heading", {
+  reset:false,
   duration: 4000,
   scale: 0.855
 });
 
 ScrollReveal().reveal("#section_five_heading", {
+  reset:false,
   duration: 4000,
   scale: 0.855
 });
 
 
-
-
-ScrollReveal().reveal("#earning_details", {
-  reset:false,
-  duration: 2000,
-  origin: "left",
-  distance: "40%",
-  easing: "cubic-bezier(.37,.01,.74,1)",
-  opacity: 0.3,
-  scale: 1
-});
-
-
-ScrollReveal().reveal("#revenue_details", {
-  reset:false,
-  duration: 2000,
-  origin: "right",
-  distance: "40%",
-  easing: "cubic-bezier(.37,.01,.74,1)",
-  opacity: 0.3,
-  scale: 1
-});
 
 ScrollReveal().reveal("#why", {
   reset:false,
@@ -74,7 +54,7 @@ ScrollReveal().reveal("#why", {
 
 ScrollReveal().reveal("#section_six_card_one", {
   reset:false,
-  duration: 2000,
+  duration: 1500,
   origin: "bottom",
   distance: "100px",
   easing: "cubic-bezier(.37,.01,.74,1)",
@@ -84,7 +64,7 @@ ScrollReveal().reveal("#section_six_card_one", {
 
 ScrollReveal().reveal("#section_six_card_two", {
   reset:false,
-  duration: 2000,
+  duration: 1500,
   origin: "bottom",
   distance: "100px",
   easing: "cubic-bezier(.37,.01,.74,1)",
@@ -94,7 +74,7 @@ ScrollReveal().reveal("#section_six_card_two", {
 
 ScrollReveal().reveal("#section_six_card_three", {
   reset:false,
-  duration: 2000,
+  duration: 1500,
   origin: "bottom",
   distance: "100px",
   easing: "cubic-bezier(.37,.01,.74,1)",
@@ -106,6 +86,27 @@ ScrollReveal().reveal("#newsletter_box", {
   reset:false,
   duration: 4000,
   scale: 0.2
+});
+
+ScrollReveal().reveal("#earning_details", {
+  reset:false,
+  duration: 1500,
+  origin: "top",
+  distance: "10%",
+  easing: "cubic-bezier(.37,.01,.74,1)",
+  opacity: 0.3,
+  scale: 1
+});
+
+
+ScrollReveal().reveal("#revenue_details", {
+  reset:false,
+  duration: 1500,
+  origin: "bottom",
+  distance: "10%",
+  easing: "cubic-bezier(.37,.01,.74,1)",
+  opacity: 0.3,
+  scale: 1
 });
 
 
