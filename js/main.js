@@ -103,6 +103,7 @@ ScrollReveal().reveal("#section_six_card_three", {
 });
 
 ScrollReveal().reveal("#newsletter_box", {
+  reset:false,
   duration: 4000,
   scale: 0.2
 });

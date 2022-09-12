@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Craspo Crypto</title>
+  <link rel="icon" href="img/logo.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;1,800&display=swap" rel="stylesheet">
@@ -13,99 +14,101 @@
 </head>
 <body class="font-custom overflow-x-hidden">
   <!-- navbar -->
-  <div class="bg-colorFour tablet:min-h-full" id="main_content">
+  <div class="bg-colorFour relative tablet:min-h-full" id="main_content">
+    <!-- <img src="img/hero-ribbon-1.png" alt="hero ribbon" class="absolute top-[30%] left-[30%]">
+    <img src="img/hero-ribbon-1.png" alt="hero ribbon" class="absolute z-0 top-[50%] left-[50%]"> -->
     <div class="mx-5 md:mx-20 2xl:mx-[20%]">
-    <nav class="py-10">
-      <div>
-        <div class="flex justify-between">
-          <!-- logo -->
-          <!-- <div class="mx-5 md:mx-0"> -->
-          <div> 
-            <a href="/">
-              <img src="img/logo.svg" alt="website logo" class="opacity-90 hover:opacity-100">
-            </a>
-          </div>
-
-          <div class="block py-3 z-[1000] tablet:hidden">
-            <!-- <span class="text-[20px] font-bold text-colorOne" id="hamburger">X</span> -->
-            <button id="hamburger" class="hamburger block focus:outline-none">
-              <span class="hamburger-top"></span>
-              <span class="hamburger-middle"></span>
-              <span class="hamburger-bottom"></span>
-            </button>
-          </div>
-
-          <!-- tablet and pc nav links and buttons -->
-          <div class="hidden tablet:block tablet:pt-2">
-
-            <div class="tablet:space-x-3 md:space-x-7">
-                <a href="##" class="font-custom text-colorOne text-center decoration-colorTwo decoration-2 underline-offset-8 hover:underline">
-                  Products
-                </a>
-    
-                <a href="##" class="font-custom text-colorOne text-center decoration-colorTwo decoration-2 underline-offset-8 hover:underline">
-                  Features
-                </a>
-    
-                <a href="##" class="font-custom text-colorOne text-center decoration-colorTwo decoration-2 underline-offset-8 hover:underline">
-                  About
-                </a>
-    
-                <a href="##" class="font-custom text-colorOne text-center decoration-colorTwo decoration-2 underline-offset-8 hover:underline">
-                  Contact
-                </a>
-    
-                <a href="##" class="text-colorOne text-center decoration-colorTwo decoration-2 underline-offset-8 hover:underline">
-                  Contact
-                </a>
-    
-                <div class="inline">
-                  <a href="##" class="font-custom text-colorOne font-medium mr-3 hover:text-colorTwo md:ml-10">
-                    Login
-                  </a>
-                  <span class="font-custom text-colorFive mr-3"> | </span>
-                  <a href="#" class="font-custom text-colorOne bg-colorTwo rounded-full px-4 py-2 font-medium hover:text-colorTwo hover:bg-colorOne">Register</a>
-                </div>
+      <nav class="py-10">
+        <div>
+          <div class="flex justify-between">
+            <!-- logo -->
+            <!-- <div class="mx-5 md:mx-0"> -->
+            <div> 
+              <a href="/">
+                <img src="img/logo.svg" alt="website logo" class="opacity-90 hover:opacity-100">
+              </a>
             </div>
-          </div>
 
-          <!-- mobile menu -->
-          <div class="bg-colorFour w-full h-full fixed z-50 top-0 left-0 tablet:hidden checker" id="mobile_menu">
-
-            <div class="space-y-4 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-                <a href="##" class="block font-custom text-colorOne text-center md:inline">
-                  Product
-                </a>
-    
-                <a href="##" class="block font-custom text-colorOne text-center md:inline">
-                  Features
-                </a>
-    
-                <a href="##" class="block font-custom text-colorOne text-center md:inline">
-                  About
-                </a>
-    
-                <a href="##" class="block font-custom text-colorOne text-center md:inline">
-                  Contact
-                </a>
-    
-                <a href="##" class="block text-colorOne text-center  md:inline">
-                  Contact
-                </a>
-    
-                <div class="pt-8">
-                  <a href="##" class="font-custom text-colorOne font-medium mr-3 md:ml-10">
-                    Login
-                  </a>
-                  <span class="font-custom text-colorFive mr-3"> | </span>
-                  <a href="#" class="font-custom text-colorOne bg-colorTwo rounded-full px-4 py-2 font-medium">Register</a>
-                </div>
+            <div class="block py-3 z-[1000] tablet:hidden">
+              <!-- <span class="text-[20px] font-bold text-colorOne" id="hamburger">X</span> -->
+              <button id="hamburger" class="hamburger block focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+              </button>
             </div>
-          </div>
 
+            <!-- tablet and pc nav links and buttons -->
+            <div class="hidden tablet:block tablet:pt-2">
+
+              <div class="tablet:space-x-3 md:space-x-7">
+                  <a href="##" class="font-custom text-colorOne text-center decoration-colorTwo decoration-2 underline-offset-8 hover:underline">
+                    Products
+                  </a>
+      
+                  <a href="##" class="font-custom text-colorOne text-center decoration-colorTwo decoration-2 underline-offset-8 hover:underline">
+                    Features
+                  </a>
+      
+                  <a href="##" class="font-custom text-colorOne text-center decoration-colorTwo decoration-2 underline-offset-8 hover:underline">
+                    About
+                  </a>
+      
+                  <a href="##" class="font-custom text-colorOne text-center decoration-colorTwo decoration-2 underline-offset-8 hover:underline">
+                    Contact
+                  </a>
+      
+                  <a href="##" class="text-colorOne text-center decoration-colorTwo decoration-2 underline-offset-8 hover:underline">
+                    Contact
+                  </a>
+      
+                  <div class="inline">
+                    <a href="##" class="font-custom text-colorOne font-medium mr-3 hover:text-colorTwo md:ml-10">
+                      Login
+                    </a>
+                    <span class="font-custom text-colorFive mr-3"> | </span>
+                    <a href="#" class="font-custom text-colorOne bg-colorTwo rounded-full px-4 py-2 font-medium hover:text-colorTwo hover:bg-colorOne">Register</a>
+                  </div>
+              </div>
+            </div>
+
+            <!-- mobile menu -->
+            <div class="bg-colorFour w-full h-full fixed z-50 top-0 left-0 tablet:hidden checker" id="mobile_menu">
+
+              <div class="space-y-4 absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%]">
+                  <a href="##" class="block font-custom text-colorOne text-center md:inline hover:text-colorTwo">
+                    Product
+                  </a>
+      
+                  <a href="##" class="block font-custom text-colorOne text-center md:inline hover:text-colorTwo">
+                    Features
+                  </a>
+      
+                  <a href="##" class="block font-custom text-colorOne text-center md:inline hover:text-colorTwo">
+                    About
+                  </a>
+      
+                  <a href="##" class="block font-custom text-colorOne text-center md:inline hover:text-colorTwo">
+                    Contact
+                  </a>
+      
+                  <a href="##" class="block text-colorOne text-center  md:inline hover:text-colorTwo">
+                    Contact
+                  </a>
+      
+                  <div class="pt-8 pl-3">
+                    <a href="##" class="font-custom text-colorOne font-medium mr-3 md:ml-10 hover:text-colorTwo">
+                      Login
+                    </a>
+                    <span class="font-custom text-colorFive mr-3"> | </span>
+                    <a href="#" class="font-custom text-colorOne bg-colorTwo rounded-full px-4 py-2 font-medium hover:text-colorTwo hover:bg-colorOne">Register</a>
+                  </div>
+              </div>
+            </div>
+
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
     <!-- cta  -->
     <main>
       <div>
@@ -116,23 +119,19 @@
                 <span class="bg-colorOne text-colorFive text-[10px] px-4 py-2 mr-3 rounded-full">70% SAVE</span> 
                 <span class="text-colorThree text-[12px]"> For the Black Friday weekend</span>
               </div>
-              <h1 class="mt-8 text-4xl text-colorOne font-bold md:leading-tight md:text-5xl md:w-10/12">
+              <h1 class="mt-8 text-3xl text-colorOne font-bold tablet:text-4xl md:leading-tight md:text-5xl md:w-10/12">
                 Fastest & secure platform to invest in crypto
               </h1>
               <p class="my-6 text-custom text-colorThree md:w-7/12">
                 Buy and sell cryptocurrencies, trusted by 10M wallets with over $30 billion in transactions.
               </p>
-              <button class="font-custom text-colorOne bg-colorTwo rounded-full px-5 py-2 font-medium md:px-6 md:py-3 hover:bg-blue-500">
-                Try For Free <span id="btn_arrow" class="ml-2 bg-colorOne px-3 py-1  rounded-full text-colorTwo font-bold md:px-4 md:py-2"> > </span>
+              <button class="group font-custom text-colorOne bg-colorTwo rounded-full px-5 py-2 font-medium md:px-6 md:py-3 hover:scale-105">
+                Try For Free <span id="btn_arrow" class="ml-2 bg-colorOne px-3 py-1  rounded-full text-colorTwo font-bold group:hover:opacity-90 md:px-4 md:py-2"> > </span>
               </button>
           </div>
           <!-- right side of cta sections -->
           <div class="relative mt-2 tablet:w-6/12 tablet:mt-0" id="cta_right_side">
-              <!-- <div id="cta_image bg-[url('../img/hero-img.png')]">
-
-              </div> -->
               <!-- <div id="ribon_one" class="w-full h-full md:absolute md:top-[20%] md:right-[60%]"></div> -->
-              <!-- <div id="ribon_one"></div> -->
               <img id="hero_image" src="img/hero-img.png" alt="hero image sections" class="block opacity-0 tablet:hidden">
           </div>
         
@@ -201,7 +200,7 @@
             <p class="font-custom mt-4 mb-10 text-custom text-colorThree md:w-10/12 md:mt-6 md:mb-14">
               Experience the next generation cryptocurrency platform. No financial borders, extra fees, and fake reviews.
             </p>
-            <a href="##" class="font-custom text-colorOne bg-colorTwo rounded-full px-3 py-2 font-medium  md:px-4 md:py-3">
+            <a href="##" class="font-custom text-colorOne bg-colorTwo rounded-full px-3 py-2 font-medium transition-colors hover:bg-colorOne hover:text-colorFour md:px-4 md:py-3">
               Learn More
             </a>
           </div>
@@ -217,16 +216,16 @@
     <div class="md:mx-20 2xl:mx-[20%]" id="earning_details">
       <!-- section heading details -->
       <div class="text-center">
-        <h1 class="font-custom text-colorOne text-[30px] font-bold mb-6 md:text-[40px]">Check how much you can earn</h1>
+        <h1 class="font-custom text-colorOne px-2 text-[30px] font-bold mb-6 md:text-[40px]">Check how much you can earn</h1>
         <p class="font-custom text-colorThree text-[14px] px-3 md:px-10 md:text-[18px]">Let’s check your hash rate to see how much you will earn today, Exercitation veniam consequat sunt nostrud amet.</p>
         <p class="hidden font-custom text-colorThree text-[14px] px-3 md:px-10 md:text-[18px]">Exercitation veniam consequat sunt nostrud amet.</p>
       </div>
       <!-- section input for checking value -->
       <div class="mt-14 mx-5 bg-colorEight rounded-t-lg md:mx-20">
         <form class="pt-12 pb-8 px-5 flex flex-col space-y-9 tablet:py-12  tablet:justify-around tablet:flex-row tablet:px-0 tablet:space-y-0">
-          <input type="text" name="fieldOne" placeholder="Enter your hash rate" class="block bg-colorEight pb-1 pl-1 border-b-2 border-b-colorThree text-colorFour placeholder-colorFour focus:outline-none tablet:w-5/12">
+          <input type="text" name="fieldOne" placeholder="Enter your hash rate" class="block bg-colorEight pb-2 pl-1 border-b-2 border-b-colorThree text-colorFour placeholder-colorFour focus:outline-none tablet:w-5/12 tablet:pb-1">
           <!-- <input type="text" name="fieldOne" placeholder="TH/s" class="block bg-colorEight pb-1 pl-1 border-b-2 border-b-colorThree text-colorFour placeholder-colorFour focus:outline-none"> -->
-          <select class="block bg-colorEight pb-1 pl-1 border-b-2 border-b-colorThree text-colorFour placeholder-colorFour focus:outline-none tablet:w-3/12">
+          <select class="block bg-colorEight pb-2 pl-1 border-b-2 border-b-colorThree text-colorFour placeholder-colorFour focus:outline-none tablet:w-3/12 tablet:pb-1">
             <option class="d-block w-full">TH/S</option>
             <option class="d block w-full">LTC</option>
             <option class="d-block w-full">BTC</option>
@@ -253,59 +252,57 @@
         </div>
       </div>
       <!-- innser section middle heading -->
-      <div class="mt-20 md:mx-auto md:w-8/12" id="section_five_heading">
+      <div class="mt-14 tablet:mt-20 md:mx-auto md:w-8/12" id="section_five_heading">
         <h1 class="text-colorOne text-[25px] px-5 font-bold text-center md:px-0 md:text-colorFour md:text-[40px]">
           Trade securely and market the high growth cryptocurrencies.
         </h1>
       </div>
       <!-- coin card for showcase -->
-      <div class="mt-20 flex flex-col tablet:flex-row tablet:justify-around tablet:flex-wrap tablet:mt-10 md:mt-20 md:justify-center md:space-x-10">
+      <div class="mt-10 flex flex-col tablet:flex-row tablet:justify-around tablet:flex-wrap tablet:mt-10 tablet tablet:space-x-7 md:mt-20 md:justify-center md:space-x-10 md:space-y-0">
         <!-- card one -->
-        <div class="px-5 mb-4 tablet:w-5/12 tablet:mb-0 tablet:px-0 md:w-3/12">
-          <div class="bg-secondary py-10 rounded-lg">
-            <img src="img/bitcon.png" alt="bicon" class="mb-7 mx-auto">
-            <h1 class="text-colorOne text-[32px] text-center font-bold mb-7 mx-auto tablet:text-[25px]">Bitcon <span class="text-colorThree text-[18px] font-medium">BTC</span> </h1>
-            <p class="text-colorOne text-center box-border px-5 tablet:px-2 tablet:mb-7 md:mb-0 md:px-5">
+        <div class="px-5 mb-4 tablet:w-4/12 tablet:mb-0 tablet:px-0 md:w-3/12 transition-transform hover:-translate-y-2">
+          <div class="bg-secondary space-y-7 py-10 rounded-lg w-10/12 mx-auto tablet:w-full tablet:mx-0 tablet:min-h-full">
+            <!-- space-y-7 py-10 rounded-lg w-10/12 mx-auto tablet:w-12/12 tablet:mx-0 tablet:min-h-full -->
+            <img src="img/bitcon.png" alt="bicon" class="mx-auto">
+            <h1 class="text-colorOne text-[32px] text-center font-bold mx-auto tablet:text-[25px]">Bitcon <span class="text-colorThree text-[18px] font-medium">BTC</span> </h1>
+            <p class="text-colorOne text-center box-border px-5 tablet:px-2 md:mb-0 md:px-5">
               Digital currency in which a record of transactions is maintained.
             </p>
-            <br class="inline tablet:hidden md:inline mb-7">
+            <!-- <p class="inline tablet:hidden md:block md:opacity-0 md:mb-7">nothing</p> -->
             <div class="text-center">
-              <a href="#" class="font-custom text-colorOne bg-colorTwo rounded-full px-6 py-3 font-medium">
-                Start mining <span class="ml-2 bg-colorOne px-2 py-1 rounded-full text-colorTwo font-bold">></span>
+              <a href="#" class="font-custom text-colorOne bg-colorTwo rounded-full px-4 py-2 font-medium transition-all hover:bg-colorFour hover:border hover:border-[rgba(43, 7, 110, 0.2)] tablet:px-6 tablet:py-3">
+                Start mining <span class="ml-2 bg-colorOne px-3 py-1 rounded-full text-colorTwo font-bold">></span>
               </a>
             </div>
           </div>
         </div>
 
         <!-- card two -->
-        <div class="px-5 mb-4 tablet:w-5/12 tablet:mb-0 tablet:px-0 md:w-3/12">  
-          <div class="bg-colorEight space-y-7 py-10 rounded-lg">
+        <div class="px-5 mb-4 tablet:w-4/12 tablet:mb-0 tablet:px-0 md:w-3/12 transition-transform hover:-translate-y-2">  
+          <div class="bg-colorEight space-y-7 py-10 rounded-lg w-10/12 mx-auto tablet:w-full tablet:mx-0 tablet:min-h-full">
             <img src="img/ethereum.png" alt="bicon" class="mx-auto">
             <h1 class="text-colorFour text-[32px] text-center font-bold mx-auto tablet:text-[25px]">Ethereum <span class="text-colorSix text-[18px] font-medium ">ETH</span> </h1>
             <p class="text-colorFive text-center box-border px-5 tablet:px-2 md:px-5">
               Blockchain technology to create and run decentralized digital applications.
-              <!-- Digital currency in which a record of transactions is maintained. -->
             </p>
             <div class="text-center">
-              <a href="#" class="font-custom font-bold text-colorTwo bg-colorOne rounded-full px-4 py-3  border border-[rgba(43, 7, 110, 0.2)]">
-              <!-- <span class="ml-2 bg-colorOne px-4 py-2 rounded-full text-colorTwo font-bold">></span> -->
+              <a href="#" class="font-custom font-bold text-colorTwo bg-colorOne rounded-full px-4 py-2 border border-[rgba(43, 7, 110, 0.2)] transition-all hover:text-colorFour hover:border-2 hover:border-colorTwo">
                 >
               </a>
             </div>
           </div>
-        </div>
+          </div>
 
         <!-- card three -->
-        <div class="px-5 mb-4 tablet:w-5/12 tablet:mb-0 tablet:px-0 tablet:mt-10 md:mt-0 md:w-3/12">  
-          <div class="bg-colorEight space-y-7 py-10 rounded-lg">
+        <div class="px-5 mb-4 tablet:w-4/12 tablet:mb-0 tablet:mt-7 tablet:px-0 md:mt-0 md:w-3/12 transition-transform hover:-translate-y-2">  
+          <div class="bg-colorEight space-y-7 py-10 rounded-lg w-10/12 mx-auto tablet:w-full tablet:mx-0 tablet:min-h-full">
             <img src="img/litecoin.png" alt="bicon" class="mx-auto">
             <h1 class="text-colorFour text-[32px] text-center font-bold mx-auto tablet:text-[25px]">Litecoin <span class="text-colorSix text-[18px] font-medium ">LTC</span> </h1>
-            <p class="text-colorFive text-center box-border px-5 tablet:px-2 md:px-5">
+            <p class="text-colorFive text-center box-border px-5 tablet:px-2 md:px-5]">
               Cryptocurrency that enables instant payments to anyone in the world.
             </p>
             <div class="text-center">
-              <a href="#" class="font-custom font-bold text-colorTwo bg-colorOne rounded-full px-4 py-3 border border-[rgba(43, 7, 110, 0.2)]">
-              <!-- <span class="ml-2 bg-colorOne px-4 py-2 rounded-full text-colorTwo font-bold">></span> -->
+              <a href="#" class="font-custom font-bold text-colorTwo bg-colorOne rounded-full px-4 py-2 border border-[rgba(43, 7, 110, 0.2)] transition-all hover:text-colorFour hover:border-2 hover:border-colorTwo">
                 >
               </a>
             </div>
@@ -317,7 +314,7 @@
   </section>
 
   <!-- section six -->
-  <section class="bg-colorFour py-20 md:bg-secondary" id="section_six">
+  <section class="bg-colorFour py-10 md:bg-secondary tablet:py-20" id="section_six">
     
     <!-- section heading -->
     <div class="md:mx-auto md:w-8/12" id="section_six_heading">
@@ -327,7 +324,7 @@
     <!-- section one container -->
     <div class="md:mx-20 2xl:mx-[20%]" id="section_six_card_one">
       <!-- section feature one -->
-      <div class="mt-20 flex flex-col space-y-12 md:flex-row md:space-y-0">
+      <div class="mt-12 flex flex-col space-y-12 md:mt-20 md:flex-row md:space-y-0">
         <!-- section left side -->
         <div class="px-6 md:w-5/12 md:pt-14 md:px-0">
           <div class="md:w-10/12">
@@ -415,14 +412,14 @@
     <div class="mx-5 rounded-lg md:mx-20 2xl:mx-[20%]" id="newsletter_box">
       <div class="mx-5 py-10 flex flex-col space-y-6 md:justify-between md:flex-row md:space-y-0 md:mx-20">
         <div class="md:w-6/12 space-y-3">
-          <h3 class="text-[25px] text-colorOne font-bold md:text-[32px]">Start mining now</h3>
-          <p class="text-colorOne text-[14px] md:w-9/12 md:text-[16px]">Join now with CRAPPO to get the latest news and start mining now</p>
+          <h3 class="text-[25px] text-colorOne font-bold tablet:text-[28px] md:text-[32px]">Start mining now</h3>
+          <p class="text-colorOne text-[14px] md:w-9/12 tablet:text-[16px]">Join now with CRAPPO to get the latest news and start mining now</p>
         </div>
         <div class="md:w-6/12 md:pt-8">
           <form class="flex flex-col space-y-4 md:flex-row md:justify-between md:space-y-0">
-            <input type="text" name="subscribe_email" placeholder="Enter your hash rate" class="block bg-colorTwo pl-1 border-b-2 border-b-[#ffffff66] text-colorOne placeholder-colorOne text-[14px] focus:outline-none md:w-8/12 md:text-[16px]">
+            <input type="text" name="subscribe_email" placeholder="Enter your hash rate" class="block bg-colorTwo pb-2 pl-1 border-b-2 border-b-[#ffffff66] text-colorOne placeholder-colorOne text-[14px] focus:outline-none md:w-8/12 tablet:text-[16px] md:pb-1">
             <div class="text-center">
-              <button type="button" class="font-custom text-colorFour text-[14px] bg-colorOne rounded-full px-3 py-2 font-medium md:px-6 md:py-2 md:text-[16px] hover:text-colorOne hover:bg-colorFour">
+              <button type="button" class="text-colorFour text-[14px] bg-colorOne rounded-full px-3 py-2 font-medium tablet:px-4 tablet:py-2 tablet:text-[16px] hover:text-colorOne hover:bg-colorFour">
                 Subscribe
               </button>
             </div>
@@ -434,7 +431,7 @@
   <!-- footer sections -->
   <footer class="bg-colorFour">
 
-    <div class="py-10 md:py-20 md:mx-20 2xl:mx-[20%]">
+    <div class="py-5 tablet:py-10 md:py-20 md:mx-20 2xl:mx-[20%]">
       <div class="flex flex-col text-center space-y-5 tablet:flex-row tablet:flex-wrap tablet:justify-center md:text-left md:justify-between tablet:space-y-1">
 
         <div class="mx-auto md:mx-0">
@@ -486,16 +483,9 @@
         <div class="space-y-5 tablet:pt-7 md:w-4/12 md:pt-0">
           <h1 class="text-[20px] text-colorOne px-2 font-medium md:px-0 tablet:text-[28px] md:text-[32px]">We accept following payment systems</h1>
           <div class="space-x-4">
-            <a href="##">
-              <img src="img/visa.png" alt="picture one" class="inline rounded-md hover:bg-colorTwo">
-            </a>
-            <a href="##">
-              <img src="img/mastercard.png" alt="picture one" class="inline rounded-md hover:bg-colorTwo">
-            </a>
-            <a href="##">
-              <img src="img/bitcoin.png" alt="picture one" class="inline rounded-md hover:bg-colorTwo">
-            </a>
-            
+            <img src="img/visa.png" alt="picture one" class="inline rounded-md">
+            <img src="img/mastercard.png" alt="picture one" class="inline rounded-md">
+            <img src="img/bitcoin.png" alt="picture one" class="inline rounded-md">
           </div>
         </div>
 
